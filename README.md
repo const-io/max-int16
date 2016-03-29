@@ -8,14 +8,14 @@ MAX INT16
 ## Installation
 
 ``` bash
-$ npm install compute-const-max-int16
+$ npm install const-max-int16
 ```
 
 
 ## Usage
 
 ``` javascript
-var MAX_INT16 = require( 'compute-const-max-int16' );
+var MAX_INT16 = require( 'const-max-int16' );
 ```
 
 #### MAX_INT16
@@ -30,7 +30,7 @@ MAX_INT16 === (Math.pow(2,15) - 1);
 ## Examples
 
 ``` javascript
-var MAX_INT16 = require( 'compute-const-max-int16' );
+var MAX_INT16 = require( 'const-max-int16' );
 
 console.log( MAX_INT16 );
 // returns 32767
@@ -100,8 +100,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-max-int16.svg
-[npm-url]: https://npmjs.org/package/compute-const-max-int16
+[npm-image]: http://img.shields.io/npm/v/const-max-int16.svg
+[npm-url]: https://npmjs.org/package/const-max-int16
 
 [build-image]: http://img.shields.io/travis/const-io/max-int16/master.svg
 [build-url]: https://travis-ci.org/const-io/max-int16
